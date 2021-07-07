@@ -1,0 +1,17 @@
+VERIFICAR CARPETAS
+
+
+1. FUNCIONALIDAD: La aplicación sirve para monitorear CONSTANTEMENTE un directorio que se especifica en un bloc de notas.Si se realiza algún cambio en el directorio la aplicación verifica que el archivo que originó el cambio posea dentro de su nombre los últimos 4 caracteres del directorio.
+
+2. INSTALACIÓN: la aplicación se ejecutará localmente en el equipo de cada operador, por ello se deberá instalar:
+1. el entorno de java:jre-8u251-windows-x64.exe
+2. copiar en el disco D la carpeta “VerificaCarpetas”, dentro de la misma se encuentra el ejecutable “VerificaCarpetas.jar” y el txt PARAMETROS.
+3. Copiar dentro de ruta de inicio de windows el archivo .bat VerificaCarpetas. Ejemplo de ruta de inicio de Windows “C:\Users\nbenitez\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup”
+4. Se deberá reiniciar el equipo
+
+3. PARAMETROS: el txt  que lleva este nombre especificará el único directorio que se controlará con la aplicación, ejemplos de como se debe especificar:
+RUTA A VERIFICAR@D:\Produccion2\OPERADORES\Padron_Web_XML2020\
+RUTA A VERIFICAR@\\serverprod\Produccion2\OPERADORES\Padron_Web_XML\2020\
+Notar que al final va barra invertida para que se verifiquen los subdirectorios.
+Notar también que con cada cambio de año se deberá actualizar el parámetro.
+

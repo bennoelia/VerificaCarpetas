@@ -1,0 +1,3 @@
+RUTA A VERIFICAR@D:\Produccion2\OPERADORES\Padron_Web_XML2020\
+
+después reemplazar por \\serverprod\Produccion2\OPERADORES\Padron_Web_XML\2020\
